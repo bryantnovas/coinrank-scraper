@@ -11,7 +11,7 @@
 -------------------------------
 ![scraping image](https://miro.medium.com/max/486/1*lWPJJxqnFBA54PB6vyHlRg.gif)
 
-This project scrapes data from *[coinranking.com](https://coinranking.com)* handles pagination, cleans up the data and saves it to a data set that can be stored as a **csv** or **json** file.
+This project scrapes data from *[coinranking.com](https://coinranking.com)* recursively handles pagination, cleans up the data and saves it to a dataset that can be stored as a **csv** or **json** file.
 
 The aspect that I'm most proud of is that this **spider crawls on 215 pages** and gets information on over **10,730 different cryptocurrencies.** To achive this I used the *[xpath](https://www.w3schools.com/xml/xpath_intro.asp)* syntax which in my opinion is much more powerful than css selectors on querying data from a website and also transforming and cleaning up the information regardless of the programming language used to fetch the information.
 
@@ -44,7 +44,7 @@ I used mostly scrapy, An open source and collaborative python framework for extr
   ```
     scrapy crawl coin -o dataset.json
   ``` 
-  You could also change the file extension to **.csv** if you rather have a spreadsheets with all the values.
+  You could also change the file extension to **.csv** if you rather have a spreadsheet with all the values.
 
 ## Contact <a name=contact></a>
 ---------------------
