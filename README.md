@@ -7,7 +7,7 @@
 3. [Usage](#usage)
 4. [Contact](#contact)
 
-## About the Project {#project}
+## About the Project <a name=project></a>
 -------------------------------
 ![scraping image](https://miro.medium.com/max/486/1*lWPJJxqnFBA54PB6vyHlRg.gif)
 
@@ -15,21 +15,21 @@ This project scrapes data from *[coinranking.com](#https://coinranking.com)* han
 
 The aspect that I'm most proud of is that this **spider crawls on 215 pages** and gets information on over **10,730 different cryptocurrencies.** To achive this I used the *[xpath](https://www.w3schools.com/xml/xpath_intro.asp)* syntax which in my opinion is much more powerful than css selectors on querying data from a website and also transforming and cleaning up the information regardless of the programming language used to fetch the information.
 
-## Getting Started {#getting-started}
+## Getting Started <a name=getting-started></a>
 -------------------------------------
 To get a local copy up and running follow these simple example steps.
 
-### Built With {#built}
+### Built With <a name=built></a>
 I used mostly scrapy, An open source and collaborative python framework for extracting the from website. Scrapy is fast, simple and extensible. Also venv  was used to create a virtual environment and handle dependencies.
  
  - [scrapy](#https://scrapy.org/)
  - [venv](#https://docs.python.org/3/library/venv.html)
 
- ### Prerequisites {#prerequisites}
+ ### Prerequisites <a name=prerequisites></a>
  - [Python 3](#https://www.python.org/downloads/)
  - the latest version of [pip](#https://pip.pypa.io/en/stable/installing/)
 
- ### Installation {#installation}
+ ### Installation <a name=installation></a>
   1. Clone the Repo
   ``` 
     git clone https://github.com/your_username_/Project-Name.git
@@ -38,7 +38,7 @@ I used mostly scrapy, An open source and collaborative python framework for extr
   ```python
     pip install -r requirements.txt
   ```
-## Usage {#usage}
+## Usage <a name=usage></a>
 -----------------
   cd into the project folder **coinranking** and run the command in your terminal: 
   ```
@@ -46,6 +46,6 @@ I used mostly scrapy, An open source and collaborative python framework for extr
   ``` 
   You could also change the file extension to **.csv** if you rather have a spreadsheets with all the values.
 
-## Contact {#contact}
+## Contact <a name=contact></a>
 ---------------------
 Bryant Novas - [Linkedin](#https://www.linkedin.com/in/bryantnovas/)
